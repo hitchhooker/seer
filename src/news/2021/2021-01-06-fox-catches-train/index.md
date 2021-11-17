@@ -2,14 +2,14 @@
 title: Fox Catches Train Across Country
 published: true
 slug: train
-date: "2021-01-06 19:00"
+date: '2021-01-06 19:00'
 header:
-    image_featured: "image"
+  image_featured: 'image'
 categories:
-    - first test
+  - first test
 tags:
-    - test
-    - befana
+  - test
+  - befana
 ---
 
 <script>

@@ -21,7 +21,7 @@
 
 <script lang="ts">
 	import { base } from '$app/paths';
-	export let posts: ArrayLike<{ slugPage: any; metadata: { title: any; slug: any } }>;
+	export let posts: ArrayLike<{ slugPage: string; metadata: { title: string; slug: string } }>;
 
 	function linkSlug(s: string | undefined, p: string): string {
 		let result = '';
@@ -35,9 +35,8 @@
 
 	// landing layer image
 	const layers = [0, 1, 2, 3, 4, 5, 6, 7, 8];
-	let y:number;
+	let y: number;
 </script>
-
 
 <!--TODO: create parallax component to libraries -->
 <svelte:window bind:scrollY={y} />
@@ -54,9 +53,7 @@
 </div>
 
 <div class="relative h-250vh">
-
 	<div class="absolute top-650px left-0 w-full h-[calc(100%-650px) foreground">
-
 		<h1>The Zeitgeist Seer Program</h1>
 		<div class="mb-1">
 			<p>
@@ -78,15 +75,13 @@
 				</li>
 			{/each}
 		</ul>
-
 	</div>
 </div>
-
 
 <style>
 	.parallax-container {
 		position: fixed;
-		top:0;
+		top: 0;
 		width: 2400px;
 		height: 762px;
 		left: 50%;

@@ -1,12 +1,12 @@
 ---
 title: Man Found Having Tea Party With Fox Again
 published: true
-date: "2021-07-20 21:03"
+date: '2021-07-20 21:03'
 categories:
-    - first test
+  - first test
 tags:
-    - test
-    - personal
+  - test
+  - personal
 ---
 
 # {title}

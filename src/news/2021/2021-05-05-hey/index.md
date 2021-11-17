@@ -1,15 +1,15 @@
 ---
 title: Viral Photo of Fox Had Been Photoshopped
 published: true
-date: "2021-05-05 10:00"
+date: '2021-05-05 10:00'
 header:
-    image_featured: "image"
-    image_credits: Photo by <a href="https://unsplash.com/@aridley88">Andrew Ridley</a> on <a href="https://unsplash.com/">Unsplash</a>
+  image_featured: 'image'
+  image_credits: Photo by <a href="https://unsplash.com/@aridley88">Andrew Ridley</a> on <a href="https://unsplash.com/">Unsplash</a>
 categories:
-    - first test
+  - first test
 tags:
-    - test
-    - personal
+  - test
+  - personal
 ---
 
 <script>
@@ -17,7 +17,6 @@ tags:
     import imageJPG from "./image.jpg"
     import imageWEBP from "./andrew-ridley-jR4Zf-riEjI-unsplash.webp"
 </script>
-
 
 # {title}
 

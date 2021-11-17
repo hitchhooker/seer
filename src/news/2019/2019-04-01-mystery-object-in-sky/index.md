@@ -1,13 +1,13 @@
 ---
 title: Mystery Object Seen In Sky
 published: true
-date: "2019-04-01 04:01"
+date: '2019-04-01 04:01'
 header:
-    image_featured: "rodion"
+  image_featured: 'rodion'
 categories:
-    - first test
+  - first test
 tags:
-    - test
+  - test
 ---
 
 <script>

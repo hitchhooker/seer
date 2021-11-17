@@ -4,7 +4,7 @@
 </script>
 
 {#key refresh}
-	<div class="main-center" in:blur="{{ duration: 200 }}">
+	<div class="main-center" in:blur={{ duration: 400 }}>
 		<slot />
 	</div>
 {/key}

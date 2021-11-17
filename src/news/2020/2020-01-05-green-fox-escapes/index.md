@@ -2,13 +2,13 @@
 title: Green Fox Escapes From Florida Zoo
 published: true
 slug: green-fox
-date: "2020-01-05 11:25"
+date: '2020-01-05 11:25'
 header:
-    image_featured: "rodion"
+  image_featured: 'rodion'
 categories:
-    - first test
+  - first test
 tags:
-    - test
+  - test
 ---
 
 <script>
