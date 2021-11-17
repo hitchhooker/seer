@@ -2,6 +2,8 @@ import { mdsvex } from 'mdsvex';
 import mdsvexConfig from './mdsvex.config.js';
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
+import Unocss from 'unocss/vite';
+import { presetAttributify, presetUno } from 'unocss';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,7 +13,6 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-			postcss: true
 		}),
 		mdsvex(mdsvexConfig)
 	],
@@ -27,7 +28,7 @@ const config = {
 		paths: {
 			assets: '/memento-sveltekit-and-github-pages',
 			base: '/memento-sveltekit-and-github-pages'
-		}
+		},
 		// prerender: {
 		// 	crawl: true,
 		// 	enabled: true,
@@ -36,6 +37,23 @@ const config = {
 		// 		"*"
 		// 	],
 		// }
+		vite: {
+			plugins: [
+				// readme https://github.com/antfu/unocss
+				Unocss({
+					presets: [
+						presetAttributify({
+							/* preset options */
+						}),
+						presetUno()
+						// ...custom presets
+					],
+					rules: [
+						// custom rules if we want more inline classes outside of windicss
+					]
+				})
+			]
+		}
 	}
 };
 
