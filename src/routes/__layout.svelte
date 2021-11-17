@@ -9,6 +9,7 @@
 </script>
 
 <script lang="ts">
+	import '@unocss/reset/normalize.css'
 	import 'uno.css';
 	import PageTransition from '$lib/PageTransition.svelte';
 	import Nav from '$lib/components/Nav.svelte';
