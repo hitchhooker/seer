@@ -38,7 +38,7 @@ const config = {
 			plugins: [
 				// readme https://github.com/antfu/unocss
 				Unocss({
-					// UnoCSS configs
+					/* UnoCSS configs
 					theme: {
 						extend: {
 							textColor: {
@@ -52,6 +52,7 @@ const config = {
 						box: 'w-200px h-200px border-4px border-dashed border-gray bg-gradient-to-r from-green-400 to-blue-500',
 						btn: 'py-2 px-4 font-semibold rounded-lg shadow-md'
 					},
+					*/
 					presets: [
 						presetAttributify({
 							/* preset options */

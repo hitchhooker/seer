@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	let logo = '';
+	let logo = 'favicon-32x32.png';
 	let alt = '';
 </script>
 
