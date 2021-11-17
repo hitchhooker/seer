@@ -23,7 +23,7 @@
 	export let posts;
 </script>
 
-<h1>My Blog</h1>
+<h1>Blog</h1>
 
 <ul>
 	{#each posts as { path, metadata: { title, tags } }}
