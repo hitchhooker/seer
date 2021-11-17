@@ -15,7 +15,7 @@
 
 <script>
 	import PageTransition from '$lib/PageTransition.svelte';
-	export let isIndex;
+	//export let isIndex;
 	export let key;
 
 	import 'prism-themes/themes/prism-dracula.css';
