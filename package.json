@@ -32,7 +32,7 @@
 		"prism-themes": "^1.9.0",
 		"prismjs": "^1.25.0",
 		"svelte": "^3.44.1",
-		"svelte-check": "^2.2.9",
+		"svelte-check": "^2.2.10",
 		"svelte-preprocess": "^4.9.8",
 		"trash-cli": "^4.0.0",
 		"tslib": "^2.3.1",
