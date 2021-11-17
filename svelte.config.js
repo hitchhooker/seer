@@ -26,8 +26,8 @@ const config = {
 		}),
 		// ssr: false,
 		paths: {
-			assets: '/memento-sveltekit-and-github-pages',
-			base: '/memento-sveltekit-and-github-pages'
+			assets: '/seer',
+			base: '/seer'
 		},
 		// prerender: {
 		// 	crawl: true,
