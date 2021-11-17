@@ -1,35 +1,31 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	let logo = '';
+	let alt = '';
 </script>
 
-<header>
-	<ul>
-		<li>
-			<a sveltekit:prefetch href={`${base}/`}>Home</a>
+<header
+	class="flex flex-row relative z-50 items-center w-full place-content-between bg-opacity-50 shadow-2xl text-white bg-purple-800"
+>
+	<h1 class="p-0 m-0 text-base ml-5">
+		<img src={logo} {alt} />
+		The Zeitgeist Seer Program
+	</h1>
+
+	<ul class="flex m-0 p-0 items-center list-none">
+		<li class="p-2 bg-green-50">
+			<a class="text-purple-100" sveltekit:prefetch href={`${base}/`}>Home</a>
 		</li>
-		<li>
-			<a sveltekit:prefetch href={`${base}/blog/`}>Blog</a>
+		<li class="p-2">
+			<a class="text-purple-100" sveltekit:prefetch href={`${base}/blog/`}>Blog</a>
 		</li>
-		<li>
-			<a sveltekit:prefetch href={`${base}/about`}>About</a>
+		<li class="p-2">
+			<a class="text-purple-100" sveltekit:prefetch href={`${base}/about`}>About</a>
 		</li>
 	</ul>
 </header>
 
-<!-- 
-<style>
-    ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    li {
-        margin-right: 10px;
-    }
-</style> -->
-<style lang="postcss">
+<!--style lang="postcss">
 	header {
 		@apply flex w-full  items-stretch justify-center;
 		background-color: var(--text-color);
@@ -50,5 +46,15 @@
 
 	a {
 		@apply no-underline;
+	}
+</style-->
+
+<style>
+	li {
+		margin-right: 16px;
+	}
+	li:hover {
+		color: var(--text-color);
+		background-color: var(--background-color);
 	}
 </style>
